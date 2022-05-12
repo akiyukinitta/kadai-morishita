@@ -5,10 +5,18 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+
+
+
+
+
+
 
 <!-- jQuery -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
@@ -19,13 +27,13 @@
                 pause: 3000,
             });
         });
-</script>
+</script> -->
 <!-- jQuery -->
 
 
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
@@ -33,7 +41,10 @@
 $(function(){
 	$('.bxslider').bxSlider({
 		auto: true,
-		slideWidth: 240,
+    arrows:true,
+		// slideWidth: 240,
+		centerMode: true,
+		slidesToShow:4,
 		minSlides:1,
 		maxSlides:4,
 		moveSlides:1,
@@ -41,7 +52,7 @@ $(function(){
 		pager:arguments,
 	});
 });
-</script>
+</script> -->
 
 
 
@@ -50,6 +61,26 @@ $(function(){
 <link href="js/slick.css" rel="stylesheet" type="text/css">
 <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
 <script type="text/javascript" src="js/slick.min.js"></script> -->
+
+
+
+<!-- 2022/04/21追加したもの -->
+<!-- <script src="jquery-3.6.0.min.js"></script> -->
+<!-- 2022/04/21 -->
+
+<!-- jquery記述 -->
+
+
+
+<!-- jquery記述 -->
+
+
+
+
+
+
+
+
 
 
 
@@ -91,29 +122,78 @@ $(function(){
 
 
 <div class="slider">
-
-  <div class="slider-content">
-    <img class="slider-img" src="img/img3.png"  alt="">
-		<p>aaa</p>
-  </div>
+	<!-- この下のdivに影をつける -->
 	<div>
-    <img class="slider-img" src="img/img3.png"  alt="">
+
+    <div class="slider-content">
+      <img class="slider-img" src="img/img3.png"  alt="">
+	    <p>aaa</p>
+    </div>
+	  <div>
+      <img class="slider-img" src="img/img3.png"  alt="">
+    </div>
+
   </div>
-
-
 </div>
 <!-- /.slider -->
 
 
+
+
+<h1>ここで分ける</h1>
+
+
+
+
 <ul class="bxslider">
-  <div>
-		<li><img src="img/img3.png" width="640" height="300"></li>
+
+    <div>
+	   	<li><img src="img/img3.png" width="640" height="300">
+	    	<p>aaa</p>
+
+	  	</li>
 		<p>aaa</p>
 	</div>
+
+
 	<li><img src="img/img4.png" width="640" height="300"></li>
 	<li><img src="../images/sample-03.png" width="640" height="300"></li>
 	<li><img src="../images/sample-04.png" width="640" height="300"></li>
+
 </ul>
+
+
+
+<h1>ここで分ける2</h1>
+
+
+
+
+<div class="slide">
+	<div class="slide-body">
+
+		<ul class="slide-list">
+			<li class="slide-item"><img src="img/img3.png"></li>
+			<li class="slide-item"><img src="img/img4.png"></li>
+			<li class="slide-item"><img src="img/img5.png"></li>
+			<li class="slide-item"><img src="img/img6.png"></li>
+			<li class="slide-item"><img src="img/img7.png"></li>
+
+		</ul>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div class="menu-itiran">
 	<a class="menu-itiran-text" href="">メニュー一覧を見る</a>
@@ -168,10 +248,38 @@ $(function(){
 <!-- /.blog -->
 
 
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+<!-- <script type="text/javascript" src="js/slick.min.js"></script> -->
+
+<!-- jquery -->
+<!-- <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script> -->
+</body>
+
+
+
+<!-- プラグイン -->
+
+
+
+<!-- 自作jquery -->
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+<!-- <script>
+	$(document).ready(function(){
+  $('.slide-list').slick({
+
+  });
+});
+</script> -->
+
+
+
 </body>
 </html>
-
-
-
-
-
